@@ -1,0 +1,612 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button,
+  input,
+  select,
+  textarea {
+    @apply appearance-none bg-transparent border-0 outline-none;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --avatar-user-squareabraham-baker-color-background: rgba(209, 210, 227, 1);
+  --avatar-user-squareadem-lane-color-background: rgba(199, 209, 176, 1);
+  --avatar-user-squareadil-floyd-color-background: rgba(229, 221, 206, 1);
+  --avatar-user-squareadriana-osullivan-color-background: rgba(229, 209, 230, 1);
+  --avatar-user-squarealec-whitten-color-background: rgba(216, 221, 192, 1);
+  --avatar-user-squareali-mahdi-color-background: rgba(207, 212, 198, 1);
+  --avatar-user-squarealiah-lane-color-background: rgba(207, 203, 220, 1);
+  --avatar-user-squarealisa-hester-color-background: rgba(229, 209, 230, 1);
+  --avatar-user-squareamanda-lowery-color-background: rgba(224, 193, 195, 1);
+  --avatar-user-squareamlie-laurent-color-background: rgba(221, 192, 206, 1);
+  --avatar-user-squareammar-foley-color-background: rgba(199, 209, 176, 1);
+  --avatar-user-squareanaiah-whitten-color-background: rgba(217, 208, 230, 1);
+  --avatar-user-squareandi-lane-color-background: rgba(220, 204, 189, 1);
+  --avatar-user-squareanita-cruz-color-background: rgba(215, 227, 232, 1);
+  --avatar-user-squareashton-blackwell-color-background: rgba(211, 214, 233, 1);
+  --avatar-user-squareashwin-santiago-color-background: rgba(209, 226, 231, 1);
+  --avatar-user-squareava-bentley-color-background: rgba(204, 221, 225, 1);
+  --avatar-user-squareava-wright-color-background: rgba(221, 208, 190, 1);
+  --avatar-user-squareaysha-becker-color-background: rgba(209, 226, 231, 1);
+  --avatar-user-squarebailey-richards-color-background: rgba(232, 215, 234, 1);
+  --avatar-user-squarebec-ferguson-color-background: rgba(231, 211, 215, 1);
+  --avatar-user-squarebelle-woods-color-background: rgba(215, 205, 229, 1);
+  --avatar-user-squarebillie-wright-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squareblake-riley-color-background: rgba(214, 207, 183, 1);
+  --avatar-user-squarebrianna-ware-color-background: rgba(214, 179, 179, 1);
+  --avatar-user-squarebyron-robertson-color-background: rgba(219, 202, 189, 1);
+  --avatar-user-squarecaitlyn-king-color-background: rgba(207, 212, 198, 1);
+  --avatar-user-squarecameron-yang-color-background: rgba(215, 227, 232, 1);
+  --avatar-user-squarecandice-wu-color-background: rgba(217, 208, 230, 1);
+  --avatar-user-squarecohen-lozano-color-background: rgba(198, 208, 203, 1);
+  --avatar-user-squarecourtney-turner-color-background: rgba(199, 209, 176, 1);
+  --avatar-user-squaredemi-wilkinson-color-background: rgba(218, 220, 214, 1);
+  --avatar-user-squaredillan-nguyen-color-background: rgba(223, 194, 192, 1);
+  --avatar-user-squaredrew-cano-color-background: rgba(217, 229, 204, 1);
+  --avatar-user-squareeduard-franz-color-background: rgba(229, 221, 206, 1);
+  --avatar-user-squareelisa-nishikawa-color-background: rgba(211, 220, 207, 1);
+  --avatar-user-squareelsie-roy-color-background: rgba(203, 225, 239, 1);
+  --avatar-user-squareerica-wyatt-color-background: rgba(229, 207, 231, 1);
+  --avatar-user-squareethan-campbell-color-background: rgba(219, 202, 189, 1);
+  --avatar-user-squareethan-valdez-color-background: rgba(214, 231, 234, 1);
+  --avatar-user-squareeva-bond-color-background: rgba(232, 215, 234, 1);
+  --avatar-user-squareeve-leroy-color-background: rgba(223, 195, 205, 1);
+  --avatar-user-squarefleur-cook-color-background: rgba(218, 220, 214, 1);
+  --avatar-user-squareflorence-shaw-color-background: rgba(207, 212, 198, 1);
+  --avatar-user-squarefrank-whitaker-color-background: rgba(207, 212, 198, 1);
+  --avatar-user-squarefranklin-mays-color-background: rgba(215, 227, 232, 1);
+  --avatar-user-squarefreya-browning-color-background: rgba(223, 194, 192, 1);
+  --avatar-user-squaregenevieve-mclean-color-background: rgba(187, 192, 221, 1);
+  --avatar-user-squareharriet-rojas-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squareharry-bender-color-background: rgba(207, 212, 198, 1);
+  --avatar-user-squarehasan-johns-color-background: rgba(216, 221, 192, 1);
+  --avatar-user-squareisla-allison-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squareisobel-fuller-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squarejackson-reed-color-background: rgba(215, 227, 232, 1);
+  --avatar-user-squarejay-shepard-color-background: rgba(199, 209, 176, 1);
+  --avatar-user-squarejaya-willis-color-background: rgba(198, 208, 203, 1);
+  --avatar-user-squarejayden-moss-color-background: rgba(223, 195, 205, 1);
+  --avatar-user-squarejessie-meyton-color-background: rgba(211, 214, 233, 1);
+  --avatar-user-squarejonathan-kelly-color-background: rgba(229, 207, 231, 1);
+  --avatar-user-squarejordan-burgess-color-background: rgba(198, 208, 203, 1);
+  --avatar-user-squarejoshua-wilson-color-background: rgba(211, 220, 207, 1);
+  --avatar-user-squarejulius-vaughan-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squarekaden-scott-color-background: rgba(207, 212, 198, 1);
+  --avatar-user-squarekaitlin-hale-color-background: rgba(221, 208, 190, 1);
+  --avatar-user-squarekari-rasmussen-color-background: rgba(199, 209, 176, 1);
+  --avatar-user-squarekate-morrison-color-background: rgba(204, 203, 220, 1);
+  --avatar-user-squarekatherine-moss-color-background: rgba(192, 198, 221, 1);
+  --avatar-user-squarekaty-fuller-color-background: rgba(209, 227, 217, 1);
+  --avatar-user-squarekelly-williams-color-background: rgba(218, 220, 214, 1);
+  --avatar-user-squarekelsey-lowe-color-background: rgba(201, 198, 208, 1);
+  --avatar-user-squarekoray-okumus-color-background: rgba(229, 207, 231, 1);
+  --avatar-user-squarekyla-clay-color-background: rgba(217, 208, 230, 1);
+  --avatar-user-squarelana-steiner-color-background: rgba(215, 227, 232, 1);
+  --avatar-user-squarelevi-rocha-color-background: rgba(223, 194, 192, 1);
+  --avatar-user-squareleyton-fields-color-background: rgba(207, 212, 198, 1);
+  --avatar-user-squareliam-hood-color-background: rgba(223, 195, 205, 1);
+  --avatar-user-squarelily-rose-chedjou-color-background: rgba(229, 221, 206, 1);
+  --avatar-user-squareloki-bright-color-background: rgba(215, 227, 232, 1);
+  --avatar-user-squarelori-bryson-color-background: rgba(223, 195, 205, 1);
+  --avatar-user-squarelucy-bond-color-background: rgba(232, 215, 234, 1);
+  --avatar-user-squarelulu-meyers-color-background: rgba(217, 208, 230, 1);
+  --avatar-user-squarelyle-kauffman-color-background: rgba(214, 179, 179, 1);
+  --avatar-user-squaremaddison-gillespie-color-background: rgba(
+    228,
+    203,
+    204,
+    1
+  );
+  --avatar-user-squaremadeleine-pitts-color-background: rgba(207, 203, 220, 1);
+  --avatar-user-squaremarco-kelly-color-background: rgba(227, 198, 209, 1);
+  --avatar-user-squaremarvin-robbins-color-background: rgba(199, 209, 176, 1);
+  --avatar-user-squaremathilde-lewis-color-background: rgba(223, 194, 192, 1);
+  --avatar-user-squaremaxwell-tan-color-background: rgba(194, 191, 211, 1);
+  --avatar-user-squaremikey-lawrence-color-background: rgba(207, 212, 198, 1);
+  --avatar-user-squaremollie-hall-color-background: rgba(223, 195, 205, 1);
+  --avatar-user-squaremolly-vaughan-color-background: rgba(193, 211, 187, 1);
+  --avatar-user-squarenala-goins-color-background: rgba(207, 203, 220, 1);
+  --avatar-user-squarenatali-craig-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squarenic-fassbender-color-background: rgba(207, 203, 220, 1);
+  --avatar-user-squarenicola-harris-color-background: rgba(221, 208, 190, 1);
+  --avatar-user-squarenicolas-trevino-color-background: rgba(214, 179, 179, 1);
+  --avatar-user-squarenicolas-wang-color-background: rgba(241, 231, 218, 1);
+  --avatar-user-squarenikolas-gibbons-color-background: rgba(207, 212, 198, 1);
+  --avatar-user-squarenoah-pierre-color-background: rgba(193, 211, 187, 1);
+  --avatar-user-squarenoel-baldwin-color-background: rgba(227, 210, 198, 1);
+  --avatar-user-squareolivia-rhye-color-background: rgba(207, 203, 220, 1);
+  --avatar-user-squareolly-schroeder-color-background: rgba(221, 208, 190, 1);
+  --avatar-user-squareorlando-diggs-color-background: rgba(229, 221, 206, 1);
+  --avatar-user-squareowen-garcia-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squareowen-harding-color-background: rgba(207, 203, 220, 1);
+  --avatar-user-squarephoenix-baker-color-background: rgba(214, 207, 183, 1);
+  --avatar-user-squarepippa-wilkinson-color-background: rgba(206, 209, 229, 1);
+  --avatar-user-squarepriya-shepard-color-background: rgba(191, 214, 215, 1);
+  --avatar-user-squarerayhan-zua-color-background: rgba(193, 222, 188, 1);
+  --avatar-user-squarerene-wells-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squarerhea-levine-color-background: rgba(211, 214, 233, 1);
+  --avatar-user-squarerhianna-shepard-color-background: rgba(215, 227, 232, 1);
+  --avatar-user-squareriley-omoore-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squarerosalee-melvin-color-background: rgba(221, 208, 190, 1);
+  --avatar-user-squaresally-mason-color-background: rgba(236, 221, 220, 1);
+  --avatar-user-squaresarah-page-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squaresienna-hewitt-color-background: rgba(233, 220, 187, 1);
+  --avatar-user-squaresophia-perez-color-background: rgba(215, 227, 232, 1);
+  --avatar-user-squarestefan-sears-color-background: rgba(214, 207, 183, 1);
+  --avatar-user-squareyoussef-roberson-color-background: rgba(216, 224, 207, 1);
+  --avatar-user-squarezahir-mays-color-background: rgba(211, 214, 233, 1);
+  --avatar-user-squarezahra-christensen-color-background: rgba(211, 220, 207, 1);
+  --avatar-user-squarezaid-schwartz-color-background: rgba(209, 227, 217, 1);
+  --avatar-user-squarezara-bush-color-background: rgba(229, 209, 230, 1);
+  --avatar-user-squarezaynab-donnelly-color-background: rgba(198, 208, 203, 1);
+  --avatar-user-squarezuzanna-burke-color-background: rgba(214, 179, 179, 1);
+  --chip-shadow:
+    0px 1.596024513244629px 9.43619155883789px 0px rgba(30, 98, 18, 0.05), 0px 5.360000133514404px 16.21889305114746px 0px rgba(
+      30,
+      98,
+      18,
+      0.14
+    ), 0px 27px 38px 0px rgba(30, 98, 18, 0.12);
+  --display-2xl-bold-font-family: "Manrope", Helvetica;
+  --display-2xl-bold-font-size: 72px;
+  --display-2xl-bold-font-style: normal;
+  --display-2xl-bold-font-weight: 700;
+  --display-2xl-bold-letter-spacing: -1.44px;
+  --display-2xl-bold-line-height: 90px;
+  --display-2xl-medium-font-family: "Manrope", Helvetica;
+  --display-2xl-medium-font-size: 72px;
+  --display-2xl-medium-font-style: normal;
+  --display-2xl-medium-font-weight: 500;
+  --display-2xl-medium-letter-spacing: -1.44px;
+  --display-2xl-medium-line-height: 90px;
+  --display-2xl-regular-font-family: "Manrope", Helvetica;
+  --display-2xl-regular-font-size: 72px;
+  --display-2xl-regular-font-style: normal;
+  --display-2xl-regular-font-weight: 400;
+  --display-2xl-regular-letter-spacing: -1.44px;
+  --display-2xl-regular-line-height: 90px;
+  --display-2xl-semibold-font-family: "Manrope", Helvetica;
+  --display-2xl-semibold-font-size: 72px;
+  --display-2xl-semibold-font-style: normal;
+  --display-2xl-semibold-font-weight: 600;
+  --display-2xl-semibold-letter-spacing: -1.44px;
+  --display-2xl-semibold-line-height: 90px;
+  --display-lg-bold-font-family: "Manrope", Helvetica;
+  --display-lg-bold-font-size: 48px;
+  --display-lg-bold-font-style: normal;
+  --display-lg-bold-font-weight: 700;
+  --display-lg-bold-letter-spacing: -0.96px;
+  --display-lg-bold-line-height: 60px;
+  --display-lg-medium-font-family: "Manrope", Helvetica;
+  --display-lg-medium-font-size: 48px;
+  --display-lg-medium-font-style: normal;
+  --display-lg-medium-font-weight: 500;
+  --display-lg-medium-letter-spacing: -0.96px;
+  --display-lg-medium-line-height: 60px;
+  --display-lg-regular-font-family: "Manrope", Helvetica;
+  --display-lg-regular-font-size: 48px;
+  --display-lg-regular-font-style: normal;
+  --display-lg-regular-font-weight: 400;
+  --display-lg-regular-letter-spacing: -0.96px;
+  --display-lg-regular-line-height: 60px;
+  --display-lg-semibold-font-family: "Manrope", Helvetica;
+  --display-lg-semibold-font-size: 48px;
+  --display-lg-semibold-font-style: normal;
+  --display-lg-semibold-font-weight: 600;
+  --display-lg-semibold-letter-spacing: -0.96px;
+  --display-lg-semibold-line-height: 60px;
+  --display-md-bold-font-family: "Manrope", Helvetica;
+  --display-md-bold-font-size: 36px;
+  --display-md-bold-font-style: normal;
+  --display-md-bold-font-weight: 700;
+  --display-md-bold-letter-spacing: -0.72px;
+  --display-md-bold-line-height: 44px;
+  --display-md-medium-font-family: "Manrope", Helvetica;
+  --display-md-medium-font-size: 36px;
+  --display-md-medium-font-style: normal;
+  --display-md-medium-font-weight: 500;
+  --display-md-medium-letter-spacing: -0.72px;
+  --display-md-medium-line-height: 44px;
+  --display-md-regular-font-family: "Manrope", Helvetica;
+  --display-md-regular-font-size: 36px;
+  --display-md-regular-font-style: normal;
+  --display-md-regular-font-weight: 400;
+  --display-md-regular-letter-spacing: -0.72px;
+  --display-md-regular-line-height: 44px;
+  --display-md-semibold-font-family: "Manrope", Helvetica;
+  --display-md-semibold-font-size: 36px;
+  --display-md-semibold-font-style: normal;
+  --display-md-semibold-font-weight: 600;
+  --display-md-semibold-letter-spacing: -0.72px;
+  --display-md-semibold-line-height: 44px;
+  --display-sm-bold-font-family: "Manrope", Helvetica;
+  --display-sm-bold-font-size: 30px;
+  --display-sm-bold-font-style: normal;
+  --display-sm-bold-font-weight: 700;
+  --display-sm-bold-letter-spacing: 0px;
+  --display-sm-bold-line-height: 38px;
+  --display-sm-medium-font-family: "Manrope", Helvetica;
+  --display-sm-medium-font-size: 30px;
+  --display-sm-medium-font-style: normal;
+  --display-sm-medium-font-weight: 500;
+  --display-sm-medium-letter-spacing: 0px;
+  --display-sm-medium-line-height: 38px;
+  --display-sm-regular-font-family: "Manrope", Helvetica;
+  --display-sm-regular-font-size: 30px;
+  --display-sm-regular-font-style: normal;
+  --display-sm-regular-font-weight: 400;
+  --display-sm-regular-letter-spacing: 0px;
+  --display-sm-regular-line-height: 38px;
+  --display-sm-semibold-font-family: "Manrope", Helvetica;
+  --display-sm-semibold-font-size: 30px;
+  --display-sm-semibold-font-style: normal;
+  --display-sm-semibold-font-weight: 600;
+  --display-sm-semibold-letter-spacing: 0px;
+  --display-sm-semibold-line-height: 38px;
+  --display-xl-bold-font-family: "Manrope", Helvetica;
+  --display-xl-bold-font-size: 60px;
+  --display-xl-bold-font-style: normal;
+  --display-xl-bold-font-weight: 700;
+  --display-xl-bold-letter-spacing: -1.2px;
+  --display-xl-bold-line-height: 72px;
+  --display-xl-medium-font-family: "Manrope", Helvetica;
+  --display-xl-medium-font-size: 60px;
+  --display-xl-medium-font-style: normal;
+  --display-xl-medium-font-weight: 500;
+  --display-xl-medium-letter-spacing: -1.2px;
+  --display-xl-medium-line-height: 72px;
+  --display-xl-regular-font-family: "Manrope", Helvetica;
+  --display-xl-regular-font-size: 60px;
+  --display-xl-regular-font-style: normal;
+  --display-xl-regular-font-weight: 400;
+  --display-xl-regular-letter-spacing: -1.2px;
+  --display-xl-regular-line-height: 72px;
+  --display-xl-semibold-font-family: "Manrope", Helvetica;
+  --display-xl-semibold-font-size: 60px;
+  --display-xl-semibold-font-style: normal;
+  --display-xl-semibold-font-weight: 600;
+  --display-xl-semibold-letter-spacing: -1.2px;
+  --display-xl-semibold-line-height: 72px;
+  --display-xs-bold-font-family: "Manrope", Helvetica;
+  --display-xs-bold-font-size: 24px;
+  --display-xs-bold-font-style: normal;
+  --display-xs-bold-font-weight: 700;
+  --display-xs-bold-letter-spacing: 0px;
+  --display-xs-bold-line-height: 32px;
+  --display-xs-medium-font-family: "Manrope", Helvetica;
+  --display-xs-medium-font-size: 24px;
+  --display-xs-medium-font-style: normal;
+  --display-xs-medium-font-weight: 500;
+  --display-xs-medium-letter-spacing: 0px;
+  --display-xs-medium-line-height: 32px;
+  --display-xs-regular-font-family: "Manrope", Helvetica;
+  --display-xs-regular-font-size: 24px;
+  --display-xs-regular-font-style: normal;
+  --display-xs-regular-font-weight: 400;
+  --display-xs-regular-letter-spacing: 0px;
+  --display-xs-regular-line-height: 32px;
+  --display-xs-semibold-font-family: "Manrope", Helvetica;
+  --display-xs-semibold-font-size: 24px;
+  --display-xs-semibold-font-style: normal;
+  --display-xs-semibold-font-weight: 600;
+  --display-xs-semibold-letter-spacing: 0px;
+  --display-xs-semibold-line-height: 32px;
+  --focus-rings-focus-ring: 0px 0px 0px 4px rgba(117, 224, 167, 1), 0px 0px 0px
+    2px rgba(255, 255, 255, 1);
+  --focus-rings-focus-ring-error: 0px 0px 0px 4px rgba(240, 68, 56, 1), 0px 0px
+    0px 2px rgba(255, 255, 255, 1);
+  --focus-rings-focus-ring-error-shadow-xs:
+    0px 0px 0px 4px rgba(240, 68, 56, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1), 0px 1px 2px 0px rgba(
+      10,
+      13,
+      18,
+      0.05
+    );
+  --focus-rings-focus-ring-error-shadow-xs-skeuomorphic:
+    0px 0px 0px 4px rgba(240, 68, 56, 1), 0px 0px 0px 2px rgba(255, 255, 255, 1), 0px 1px 2px 0px rgba(
+      10,
+      13,
+      18,
+      0.05
+    );
+  --focus-rings-focus-ring-shadow-sm:
+    0px 0px 0px 4px rgba(166, 222, 149, 1), 0px 0px 0px 2px rgba(
+      255,
+      255,
+      255,
+      1
+    ), 0px 1px 2px 0px rgba(10, 13, 18, 0.1), 0px 1px 3px 0px rgba(
+      10,
+      13,
+      18,
+      0.1
+    );
+  --focus-rings-focus-ring-shadow-xs:
+    0px 0px 0px 4px rgba(166, 222, 149, 1), 0px 0px 0px 2px rgba(
+      255,
+      255,
+      255,
+      1
+    ), 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+  --focus-rings-focus-ring-shadow-xs-skeuomorphic:
+    0px 0px 0px 4px rgba(166, 222, 149, 1), 0px 0px 0px 2px rgba(
+      255,
+      255,
+      255,
+      1
+    ), 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+  --shadows-portfolio-mockups-shadow-grid-md: 32px 32px 64px 0px
+    rgba(10, 13, 18, 0.08);
+  --shadows-portfolio-mockups-shadow-main-centre-lg: 0px 100px 200px 0px
+    rgba(10, 13, 18, 0.18);
+  --shadows-portfolio-mockups-shadow-main-centre-md: 0px 75px 150px 0px
+    rgba(10, 13, 18, 0.14);
+  --shadows-portfolio-mockups-shadow-overlay-left-lg: 100px 100px 150px 0px
+    rgba(10, 13, 18, 0.12);
+  --shadows-portfolio-mockups-shadow-overlay-right-lg: -40px 40px 72px 0px
+    rgba(10, 13, 18, 0.12);
+  --shadows-shadow-2xl: 0px 4px 4px -2px rgba(10, 13, 18, 0.04), 0px 24px 48px
+    -12px rgba(10, 13, 18, 0.18);
+  --shadows-shadow-3xl: 0px 5px 5px -2.5px rgba(10, 13, 18, 0.04), 0px 32px 64px
+    -12px rgba(10, 13, 18, 0.14);
+  --shadows-shadow-lg:
+    0px 2px 2px -1px rgba(10, 13, 18, 0.04), 0px 4px 6px -2px rgba(
+      10,
+      13,
+      18,
+      0.03
+    ), 0px 12px 16px -4px rgba(10, 13, 18, 0.08);
+  --shadows-shadow-md: 0px 2px 4px -2px rgba(10, 13, 18, 0.06), 0px 4px 6px -1px
+    rgba(10, 13, 18, 0.1);
+  --shadows-shadow-sm: 0px 1px 2px -1px rgba(10, 13, 18, 0.1), 0px 1px 3px 0px
+    rgba(10, 13, 18, 0.1);
+  --shadows-shadow-xl:
+    0px 3px 3px -1.5px rgba(10, 13, 18, 0.04), 0px 8px 8px -4px rgba(
+      10,
+      13,
+      18,
+      0.03
+    ), 0px 20px 24px -4px rgba(10, 13, 18, 0.08);
+  --shadows-shadow-xs: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+  --shadows-shadow-xs-skeuomorphic: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+  --teal-300: rgba(139, 189, 175, 1);
+  --text-lg-bold-font-family: "Manrope", Helvetica;
+  --text-lg-bold-font-size: 18px;
+  --text-lg-bold-font-style: normal;
+  --text-lg-bold-font-weight: 700;
+  --text-lg-bold-letter-spacing: 0px;
+  --text-lg-bold-line-height: 28px;
+  --text-lg-medium-font-family: "Manrope", Helvetica;
+  --text-lg-medium-font-size: 18px;
+  --text-lg-medium-font-style: normal;
+  --text-lg-medium-font-weight: 500;
+  --text-lg-medium-letter-spacing: 0px;
+  --text-lg-medium-line-height: 28px;
+  --text-lg-regular-font-family: "Manrope", Helvetica;
+  --text-lg-regular-font-size: 18px;
+  --text-lg-regular-font-style: normal;
+  --text-lg-regular-font-weight: 400;
+  --text-lg-regular-letter-spacing: 0px;
+  --text-lg-regular-line-height: 28px;
+  --text-lg-semibold-font-family: "Manrope", Helvetica;
+  --text-lg-semibold-font-size: 18px;
+  --text-lg-semibold-font-style: normal;
+  --text-lg-semibold-font-weight: 600;
+  --text-lg-semibold-letter-spacing: 0px;
+  --text-lg-semibold-line-height: 28px;
+  --text-md-bold-font-family: "Manrope", Helvetica;
+  --text-md-bold-font-size: 16px;
+  --text-md-bold-font-style: normal;
+  --text-md-bold-font-weight: 700;
+  --text-md-bold-letter-spacing: 0px;
+  --text-md-bold-line-height: 24px;
+  --text-md-medium-font-family: "Manrope", Helvetica;
+  --text-md-medium-font-size: 16px;
+  --text-md-medium-font-style: normal;
+  --text-md-medium-font-weight: 500;
+  --text-md-medium-letter-spacing: 0px;
+  --text-md-medium-line-height: 24px;
+  --text-md-regular-font-family: "Manrope", Helvetica;
+  --text-md-regular-font-size: 16px;
+  --text-md-regular-font-style: normal;
+  --text-md-regular-font-weight: 400;
+  --text-md-regular-letter-spacing: 0px;
+  --text-md-regular-line-height: 24px;
+  --text-md-semibold-font-family: "Manrope", Helvetica;
+  --text-md-semibold-font-size: 16px;
+  --text-md-semibold-font-style: normal;
+  --text-md-semibold-font-weight: 600;
+  --text-md-semibold-letter-spacing: 0px;
+  --text-md-semibold-line-height: 24px;
+  --text-sm-bold-font-family: "Manrope", Helvetica;
+  --text-sm-bold-font-size: 14px;
+  --text-sm-bold-font-style: normal;
+  --text-sm-bold-font-weight: 700;
+  --text-sm-bold-letter-spacing: 0px;
+  --text-sm-bold-line-height: 20px;
+  --text-sm-medium-font-family: "Manrope", Helvetica;
+  --text-sm-medium-font-size: 14px;
+  --text-sm-medium-font-style: normal;
+  --text-sm-medium-font-weight: 500;
+  --text-sm-medium-letter-spacing: 0px;
+  --text-sm-medium-line-height: 20px;
+  --text-sm-regular-font-family: "Manrope", Helvetica;
+  --text-sm-regular-font-size: 14px;
+  --text-sm-regular-font-style: normal;
+  --text-sm-regular-font-weight: 400;
+  --text-sm-regular-letter-spacing: 0px;
+  --text-sm-regular-line-height: 20px;
+  --text-sm-semibold-font-family: "Manrope", Helvetica;
+  --text-sm-semibold-font-size: 14px;
+  --text-sm-semibold-font-style: normal;
+  --text-sm-semibold-font-weight: 600;
+  --text-sm-semibold-letter-spacing: 0px;
+  --text-sm-semibold-line-height: 20px;
+  --text-xl-bold-font-family: "Manrope", Helvetica;
+  --text-xl-bold-font-size: 20px;
+  --text-xl-bold-font-style: normal;
+  --text-xl-bold-font-weight: 700;
+  --text-xl-bold-letter-spacing: 0px;
+  --text-xl-bold-line-height: 30px;
+  --text-xl-medium-font-family: "Manrope", Helvetica;
+  --text-xl-medium-font-size: 20px;
+  --text-xl-medium-font-style: normal;
+  --text-xl-medium-font-weight: 500;
+  --text-xl-medium-letter-spacing: 0px;
+  --text-xl-medium-line-height: 30px;
+  --text-xl-regular-font-family: "Manrope", Helvetica;
+  --text-xl-regular-font-size: 20px;
+  --text-xl-regular-font-style: normal;
+  --text-xl-regular-font-weight: 400;
+  --text-xl-regular-letter-spacing: 0px;
+  --text-xl-regular-line-height: 30px;
+  --text-xl-semibold-font-family: "Manrope", Helvetica;
+  --text-xl-semibold-font-size: 20px;
+  --text-xl-semibold-font-style: normal;
+  --text-xl-semibold-font-weight: 600;
+  --text-xl-semibold-letter-spacing: 0px;
+  --text-xl-semibold-line-height: 30px;
+  --text-xs-bold-font-family: "Manrope", Helvetica;
+  --text-xs-bold-font-size: 12px;
+  --text-xs-bold-font-style: normal;
+  --text-xs-bold-font-weight: 700;
+  --text-xs-bold-letter-spacing: 0px;
+  --text-xs-bold-line-height: 18px;
+  --text-xs-medium-font-family: "Manrope", Helvetica;
+  --text-xs-medium-font-size: 12px;
+  --text-xs-medium-font-style: normal;
+  --text-xs-medium-font-weight: 500;
+  --text-xs-medium-letter-spacing: 0px;
+  --text-xs-medium-line-height: 18px;
+  --text-xs-regular-font-family: "Manrope", Helvetica;
+  --text-xs-regular-font-size: 12px;
+  --text-xs-regular-font-style: normal;
+  --text-xs-regular-font-weight: 400;
+  --text-xs-regular-letter-spacing: 0px;
+  --text-xs-regular-line-height: 18px;
+  --text-xs-semibold-font-family: "Manrope", Helvetica;
+  --text-xs-semibold-font-size: 12px;
+  --text-xs-semibold-font-style: normal;
+  --text-xs-semibold-font-weight: 600;
+  --text-xs-semibold-letter-spacing: 0px;
+  --text-xs-semibold-line-height: 18px;
+}
+
+:root {
+  --animate-spin: spin 1s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-fade-up {
+  animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 8s infinite;
+}
+
+.animate-spin {
+  animation: var(--animate-spin);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes image-glow {
+  0% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.74, 0.25, 0.76, 1);
+  }
+
+  10% {
+    opacity: 0.7;
+    animation-timing-function: cubic-bezier(0.12, 0.01, 0.08, 0.99);
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  90%,
+  to {
+    background-position: calc(-100% - var(--shimmer-width)) 0;
+  }
+
+  30%,
+  60% {
+    background-position: calc(100% + var(--shimmer-width)) 0;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}

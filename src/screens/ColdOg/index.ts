@@ -1,0 +1,1 @@
+export { ColdOg } from "./ColdOg";
